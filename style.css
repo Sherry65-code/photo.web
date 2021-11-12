@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body{
+    overflow-y: hidden;
+    background: linear-gradient(rgb(83, 255, 175) , rgb(107, 146, 255));
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    background-color: rgba(15, 33, 49, 0.788);
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block: 10px;
+    z-index: 1;
+}
+*{
+    font-family: 'Comfortaa', cursive;
+}
+.main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-block-start: 38px;
+    overflow-y: auto;
+    text-align: center;
+}
+.banner1{
+    background-image: url('https://lh3.googleusercontent.com/0t5pCn00VL6V31eV2aucnFhFak9kmQpNg8uvHmvSuZQx9Z4G-abzPEBgfCkcx3kIrCXbj1FiHSqnU0PT4hcK7WYot5CGvpLUDn-0eKHrH7H2QIlp1XMJgL3dkUeS960poqps0Ina6epCg3KvH35SiYBJCFGMB_YhncMQRGJrKvSkzr5CJUQtgDU5WG1mlMtssFJ8QzV7MHuWmiRmzG4HPNkRCwunS3sCuO4VtLwna8pw21JDCHUCV-JKabYFqScNYhkS-2g5fixg6f2SjzPZuWAxg_C80jtOJtMjg8YNzOk1UFKdqKLtHfHxDTCMyb3H1OPenBVC6S3R70xV3UVpuXBQKlCcA9Iuv8Im520paFfz1aJ38hBuTCCSORgZIsvfadiH-2oM-EkR2FISTplCmDdb2laZe7-WN8mdkBv9HR316eGy8pIERPOdn8_SKA4XB4KiPNi-4kvfzkvYZTtN-MKWuhnNg_gCscWVVU6uPg0uQvqlXrc708szVA9g8Jj29JM8s57VMknj83HTtNm9mFODLHGYdd6TWKt3PtTSr18IV7NpDVHT4Vb8toFbC8FR6RnwFt8m_v0rPeyY6CcEycC-_AwBCf7C1rkV83dOtrPBTi_ajE_wR8drN6m3JZKznkqTgaXIrBYk5S_ceuicJSvcvowfzvYDvk_yy6lYryzMTouspc95IeYEjVLs5jHKnRmVoYE-I6wzIGaPfXHgKJqZ=w642-h362-no?authuser=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -12px;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(10, 10, 10);
+}
+img{
+    border-radius: 4px;
+}
+img:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+::selection{
+    background-color: rgba(122, 193, 255, 0.432);
+}
+::-webkit-scrollbar{
+    background-color: rgb(136, 199, 255);
+}
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 18px;
+    border: 5px rgb(136, 199, 255) solid;
+}
+::-webkit-scrollbar-thumb:hover{
+    transition-duration: 0.2s;
+    border: 3px rgb(136, 199, 255) solid;
+}
